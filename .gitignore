@@ -1,0 +1,8 @@
+.env
+*.ipynb
+*.xlsx
+*.parquet
+*.csv
+
+/.idea
+/__pycache__
