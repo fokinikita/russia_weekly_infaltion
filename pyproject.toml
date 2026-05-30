@@ -1,0 +1,25 @@
+[project]
+name = "weekly-inflation"
+version = "0.1.0"
+description = "Weekly Inflation Forecasting for Russia with ML, DL"
+authors = [
+    {name = "fokinikita",email = "fokinikita@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "polars (>=1.41.2,<2.0.0)",
+    "pydantic (>=2.13.4,<3.0.0)",
+    "pydantic-settings (>=2.14.1,<3.0.0)",
+    "catboost (>=1.2.10,<2.0.0)",
+    "torch (>=2.8.0,<3.0.0)",
+    "numpy (>=2.3.0,<3.0.0)",
+    "requests (>=2.32.0,<3.0.0)",
+    "beautifulsoup4 (>=4.12.0,<5.0.0)",
+    "lxml (>=5.0.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
